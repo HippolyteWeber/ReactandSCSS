@@ -1,0 +1,51 @@
+$backgroundColor: #eae2b7;
+$borderColor: #003049;
+$borderImgColor: #fcbf49;
+@font-face {
+  font-family: "teko_font";
+  src: url(./fonts/Teko-VariableFont_wght.ttf);
+}
+
+.container {
+  background-color: $backgroundColor;
+  width: 650px;
+  height: 306px;
+  display: flex;
+  flex-direction: column;
+  border: solid 5px $borderColor;
+  margin-left: 35em;
+  border-radius: 15px;
+}
+
+img {
+  display: flex;
+  border: solid 3px $borderImgColor;
+}
+.imgContainer {
+  display: flex;
+}
+
+.textContainer {
+  font-family: "teko_font";
+  color: $borderColor;
+  margin-left: 1em;
+}
+.footer {
+  width: 590px;
+  height: 92px;
+  background-color: $backgroundColor;
+  border: solid 5px $borderColor;
+  border-radius: 0px 0px 10px 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 1em;
+  color: $borderColor;
+  padding-left: 1em;
+  padding-right: 1em;
+  font-family: "teko_font";
+  font-size: 25px;
+}
+.footer ul {
+  list-style: none;
+}
